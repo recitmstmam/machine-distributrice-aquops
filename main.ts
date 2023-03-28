@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     servos.P0.setAngle(60)
 })
 input.onButtonPressed(Button.B, function () {
-    servos.P0.setAngle(92)
+    servos.P0.setAngle(95)
 })
 basic.forever(function () {
 	
