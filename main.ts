@@ -23,4 +23,5 @@ basic.forever(function () {
     } else {
         servos.P0.setAngle(93)
     }
+    basic.pause(2000)
 })
