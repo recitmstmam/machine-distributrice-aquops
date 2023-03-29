@@ -15,13 +15,13 @@ basic.forever(function () {
     DigitalPin.P2,
     DigitalPin.P1,
     PingUnit.Centimeters
-    ) <= 5) {
+    ) <= 6) {
         servos.P0.setAngle(59)
         basic.pause(500)
         servos.P0.setAngle(93)
-        basic.pause(2000)
+        basic.pause(1000)
     } else {
         servos.P0.setAngle(93)
     }
-    basic.pause(2000)
+    basic.pause(1000)
 })
